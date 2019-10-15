@@ -25,7 +25,7 @@
 
  BEGIN
 
-	DECLARE @beginTime AS DATETIME = GETDATE() - 1;
+	DECLARE @beginTime AS DATETIME = GETDATE() - 7;
 	DECLARE @endTime AS DATETIME = GETDATE();
 	DECLARE @fromLSN AS BINARY(10) = sys.fn_cdc_map_time_to_lsn('smallest greater than or equal', @beginTime);
 	DECLARE @toLSN AS BINARY(10) = sys.fn_cdc_map_time_to_lsn('largest less than or equal', @endTime);
@@ -40,11 +40,11 @@
 
  BEGIN
 
-	UPDATE HumanResources.Employee
-	SET VacationHours = VacationHours + 1
-	WHERE BusinessEntityID IN (3, 4, 5);
+	--UPDATE HumanResources.Employee
+	--SET VacationHours = VacationHours + 1
+	--WHERE BusinessEntityID IN (3, 4, 5);
 
-	WAITFOR DELAY '00:00:10';
+	--WAITFOR DELAY '00:00:10';
 
 	DECLARE @beginTime AS DATETIME = GETDATE() - 1;
 	DECLARE @endTime AS DATETIME = GETDATE();
