@@ -2,13 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>chap12</Name>
-    <LastWriteTime>2019-10-14T21:42:00.2055512Z</LastWriteTime>
+    <LastWriteTime>2019-10-15T19:47:10.2351102Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>CDCDemo.dtsx</Name>
-      <LastWriteTime>2019-10-14T22:15:10.9814801Z</LastWriteTime>
+      <LastWriteTime>2019-10-15T18:37:01.2437172Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CDCDemo2.dtsx</Name>
+      <LastWriteTime>2019-10-15T19:47:04.2607595Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
